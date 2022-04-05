@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISE CLUB</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <img width="100px" height="100px" src="logo.jpeg" alt="Not Found">
+  <h1 align="center">ISE CLUB</h1>
+  <hr>
+  <h1>Fill your details to get registered in ISE club</h1>
+    <form action="">
+        <label for="Name"><b>Name:</b></label>
+        <input type="text" name="Name">
+        <br><br>
+        <label for="DOB"><b>DOB:</b></label>
+        <input type="date">
+        <br><br>
+        <label for=""><b>Gender:</b></label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="phone"><b>Mobile:</b></label>
+        <input type="number" name="phone">
+        <br><br>
+        <label for="Address"><b>Address:</b></label>
+        <input type="text" name="Address" value="">
+        <br><br>
+        <label for="email"><b>Email:</b></label>
+        <input type="email" name="email">
+        <br><br>
+        <label for="designation"><b>Designation:</b></label>
+        <select name="designation" id="designation">
+          <option value="HOD">HOD</option>
+          <option value="Professor">professor</option>
+          <option value="Asst. Professor">Asst. Professor</option>
+          <option value="Lab Assistent">Lab Assistent</option>
+        </select>
+        <br><br>
+        <label for="bg"><b>Blood Group:</b></label>
+        <select name="bg" id="bg">
+          <option value="o+ve">o+ve</option>
+          <option value="o-ve">o-ve</option>
+          <option value="A+ve">A+ve</option>
+          <option value="A-ve">A-ve</option>
+          <option value="B+ve">B+ve</option>
+          <option value="B-ve">B-ve</option>
+          <option value="AB+ve">AB+ve</option>
+          <option value="AB-ve">AB-ve</option>
+        </select>
+        <br><br>
+        <label for="AOI"><b>Area Of Intrest:</b></label>
+        <select name="AOI" id="AOI">
+          <option value="Competitive Programming">Competitive Programming</option>
+          <option value="ML">ML</option>
+          <option value="AI">AI</option>
+          <option value="Blockchain">Blockchain</option>
+          <option value="Augmented Reality">Augmented Reality</option>
+          <option value="Cyber Security">Cyber Security</option>
+          <option value="Robotics">Robotics</option>
+          <option value="Computer Networks">Computer Networks</option>
+          <option value="Others">Others</option>
+        </select>
+        <br><br>
+        <label for="Hobbies"><b>Hobbies:</b></label>
+        <textarea name="Hobbies" rows="5" cols="20"></textarea>
+        <br><br
+        <label for="RTJ"><b>Reason To Join:</b></label>
+        <textarea name="RTJ" rows="5" cols="20"></textarea>
+        <br><br><br><br>
+        <div class="box">
+          <a class="button" href="#popup1">Register</a>
+        </div>
+        <br><br><br>
+
+        <div id="popup1" class="overlay">
+        	<div class="popup">
+        		<h2>Thank you :)</h2>
+        		<a class="close" href="index.html">&times;</a>
+        		<div class="content">
+        			We love to have you here in the club.Please make yourself active in the club.
+        		</div>
+        	</div>
+        </div>
+    </form>
+</body>
+</html>

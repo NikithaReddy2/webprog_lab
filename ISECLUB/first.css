@@ -1,0 +1,38 @@
+.one {
+    background-color:#ED6B5B;
+    overflow: hidden;
+  }
+
+ .one a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover 
+  .one a:hover {
+    background-color: #F7DDDC;
+    color:black;
+  }*/
+  a {
+    box-shadow: inset 0 0 0 0 #F7DDDC;
+    color:#ED6B5B;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+
+  a:hover {
+    box-shadow: inset 90px 0 0 0 #F7DDDC;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  /*.one a.active {
+    background-color:#FDB7B4;
+    color: black;
+  }*/
+  
