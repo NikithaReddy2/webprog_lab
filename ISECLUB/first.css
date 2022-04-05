@@ -1,5 +1,5 @@
 .one {
-    background-color:#ED6B5B;
+    background-color:#091dcf;
     overflow: hidden;
   }
 
@@ -35,4 +35,45 @@
     background-color:#FDB7B4;
     color: black;
   }*/
+  #header {
+    clear: both;
+    height: 120px;
+    width: 100%;
+    padding: 0 0 0 0;
+    background: white;
+    margin-bottom: 26px;
+    
+    }
+    
+    #logo {
+    
+    padding-left: 15px;
+    padding-top: 7px;
+    float: left;
   
+    
+    }
+    
+    #companyname {
+    color: #091dcf;
+    padding-top: 22px;
+    text-align: center;
+    float:left;
+    
+    /* padding-left:22px; */
+    }
+    
+    #companyname h1 {
+      font-size: 175%;
+       text-align: center;
+       
+     
+    }  
+    
+    #logo2 {
+    margin-top: 7px;
+    padding-right: 15px;
+    float:right;
+    
+    
+    }
