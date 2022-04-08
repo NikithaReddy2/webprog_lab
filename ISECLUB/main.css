@@ -1,45 +1,24 @@
-/* body {
-  font-family: Arial, sans-serif;
-  background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
-  /* background-size: cover;
-  height: 100vh;
-} */
+body{
+  background: #E1D5C9;
 
-/* h1 {
-  text-align: center;
-  font-family: Tahoma, Arial, sans-serif;
-  color: #06D85F;
-  margin: 80px 0;
-} */
-
-/* .box {
-  width: 15%;
-  margin: 0 auto;
-  background:#BC8875;
-  padding: 10px;
-  border:1px;
-  border-radius: 20px/50px;
-  background-clip: padding-box;
-  text-align: center;
-}  */
-
+  }
 .button {
   width: 25%;
   margin: 0 auto;
-  background:#5A5BF3;
+  background:#9c7099;
   padding: 13px;
-  border:1px;
-  border-radius: 20px/40px;
+  border:2px;
+  border-radius: 30px/40px;
   background-clip: padding-box;
+  color: black;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
 .button:hover {
-  background: #91E7D9;
+  background:#C89E85;
 }
-
 .overlay {
   position: fixed;
   top: 0;
@@ -55,17 +34,16 @@
   visibility: visible;
   opacity: 1;
 }
-
 .popup {
   margin: 70px auto;
   padding: 20px;
-  background: #fff;
+  background:#fff;
   border-radius: 5px;
   width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
+  /* background-color: #091dcf; */
 }
-
 .popup h2 {
   margin-top: 0;
   color: #333;
@@ -81,14 +59,10 @@
   text-decoration: none;
   color: #333;
 }
-/* .popup .close:hover {
-  color: #06D85F;
-} */
 .popup .content {
   max-height: 30%;
   overflow: auto;
 }
-
 @media screen and (max-width: 700px){
   .box{
     width: 70%;
@@ -97,3 +71,35 @@
     width: 70%;
   }
 }
+#header {
+  clear: both;
+  height: 120px;
+  width: 100%;
+  padding: 0 0 0 0;
+  background:#E1D5C9;
+  margin-bottom: 26px;
+  }
+  #logo {
+  padding-left: 15px;
+  padding-top: 7px;
+  float: left;
+  }
+  #companyname {
+  color:black;
+  padding-top: 22px;
+  text-align: center;
+  float:left;
+  padding-left:30%;
+  }
+  #companyname h1 {
+    font-size: 175%;
+    text-align: center;
+  }
+  #logo2 {
+  margin-top: 7px;
+  padding-right: 15px;
+  float:right;
+  }
+  .form{
+    text-align: center;
+  }

@@ -1,5 +1,12 @@
+body{
+  background: #C9F0E4;
+  
+}
+body,html{
+  height=100%;
+}
 .one {
-    background-color:#091dcf;
+    background-color:#3957ED;
     overflow: hidden;
   }
 
@@ -11,12 +18,7 @@
     text-decoration: none;
     font-size: 17px;
   }
-  
-  /* Change the color of links on hover 
-  .one a:hover {
-    background-color: #F7DDDC;
-    color:black;
-  }*/
+
   a {
     box-shadow: inset 0 0 0 0 #F7DDDC;
     color:#ED6B5B;
@@ -26,54 +28,80 @@
   }
 
   a:hover {
-    box-shadow: inset 90px 0 0 0 #F7DDDC;
+    box-shadow: inset 90px 0 0 0 white;
     color: black;
   }
-  
-  /* Add a color to the active/current link */
-  /*.one a.active {
-    background-color:#FDB7B4;
-    color: black;
-  }*/
+  .bg{
+    background-image: url("back2.avif");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border:2px solid #C9F0E4;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
   #header {
     clear: both;
     height: 120px;
     width: 100%;
     padding: 0 0 0 0;
-    background: white;
+    background:#C9F0E4;
     margin-bottom: 26px;
-    
+
     }
-    
     #logo {
-    
     padding-left: 15px;
     padding-top: 7px;
     float: left;
-  
-    
     }
-    
     #companyname {
     color: #091dcf;
     padding-top: 22px;
     text-align: center;
     float:left;
-    
-    /* padding-left:22px; */
+    padding-left:30%;
     }
-    
     #companyname h1 {
       font-size: 175%;
-       text-align: center;
-       
-     
-    }  
-    
+      text-align: center;
+    }
     #logo2 {
     margin-top: 7px;
     padding-right: 15px;
     float:right;
-    
-    
     }
+    /* box shadow effect */
+    .hello{
+      border: 2px solid #EDAEF9;
+      background-color:#EDAEF9;
+      border-radius: 5px;
+      padding: 5px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .two{
+      border: 2px solid #8AEDF6;
+      background-color:#8AEDF6;
+      border-radius: 5px;
+      padding: 5px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .three{
+      border: 2px solid #A0B5EB;
+      background-color: #A0B5EB;
+      border-radius: 5px;
+      padding: 5px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      
+    }
+    .four{
+      border: 2px solid:#65F4CD;
+      background-color: #65F4CD;
+      border-radius: 5px;
+      padding: 5px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+    }
+    
