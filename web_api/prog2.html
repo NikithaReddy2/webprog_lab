@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width", initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function countWords(){
+            var words=document.getElementById("textarea").value;
+            var count=0;
+            var  split=words.split(" ");
+            for(var i=0;i<split.length;i++) {
+               if(split[i] != " "){
+                   count+=split[i].length;
+               }
+            }
+            document.getElementById("display").innerHTML=split.length+"No. of characters:"+count;
+         }
+    </script>
+</head>
+<body style="background-color: aqua;">
+    <p>Enter Your Text Here</p>
+    <textarea name="" id="textarea" oninput="countWords()"" cols="30" rows="10"></textarea><br><br>
+    <p>
+        No. Of Words:
+        <span id="display">0</span>
+    </p> 
+</body>
+</html>
